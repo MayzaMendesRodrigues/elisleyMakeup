@@ -1,0 +1,181 @@
+.header {
+  position: relative;
+  background-image: url(../images/header.webp);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  z-index: 0;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(79, 54, 36, 0.94);
+  z-index: 1;
+}
+
+.header__logo {
+  width: 75px;
+  height: auto;
+  position: absolute;
+  z-index: 2;
+  padding: 33px;
+}
+
+.header__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  color: #f8f3f3;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.header__title {
+  font-size: 60px;
+  font-weight: 100;
+  margin-bottom: 46px;
+}
+
+.header__paragraph {
+  font-family: "Montserrat";
+  font-size: 14px;
+  margin: 0;
+}
+
+
+.header__form {
+  margin-top: 16px;
+  font-family: "Montserrat";
+}
+
+.header__email {
+  border: 0;
+  width: 300px;
+  height: 42px;
+  color: #949494;
+  text-transform: uppercase;
+  padding-left: 14px;
+
+}
+
+.header__save {
+  border: 0;
+  width: 150px;
+  max-width: auto;
+  text-align: center;
+  height: 42px;
+  background-color:#A37D5A;
+  color: #fff;
+  cursor: pointer;
+}
+
+.header__save:hover{
+    background-color:#4F3624;
+
+}
+
+.header__instagram{
+  display: flex;
+  align-items: center;
+    cursor: pointer;
+
+}
+
+.header__instagram:hover{
+  color: #A37D5A;
+}
+
+.fa-instagram{
+  margin-right: 10px;
+  padding: 0;
+
+}
+
+
+
+
+.header__footer{
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+
+.header__logo-text{
+  font-weight: 100;
+  font-size: 36px;
+  color: #fff;
+  margin: 0;
+}
+
+.header__copy{
+  font-family: "Montserrat";
+  margin: 0;
+  font-size: 12px;
+  color: #A37D5A;
+}
+
+.header__logo-content{
+margin: 0;
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+margin: 0;
+}
+
+.header__logo-makeup{
+  margin-top: -8px;
+  color: #fff;
+  font-family: 'Montserrat';
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-size: 8px;
+}
+
+.header__copy-content{
+  margin-bottom: 25px;
+}
+
+.header__copy-link{
+  color:#A37D5A;
+  cursor: pointer;
+}
+
+.header__copy-link:hover{
+  color: #fff;
+}
+
+.header__follow,
+.header__link{
+  font-family: 'Montserrat';
+  font-size: 14px ;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 544px){
+  .header__save{
+    margin-top: 10px;
+    width: 318px;
+
+  }
+}
+
+
+

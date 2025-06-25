@@ -1,11 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Make-up professionale per spose ad Abruzzo. Un esperienza su misura per valorizzare la tua bellezza naturale nel giorno più importante della tua vita."
+    />
+    <meta
+      name="keywords"
+      content="trucco sposa Abruzzo, makeup artist sposa, trucco professionale, trucco naturale, bellezza sposa, trucco matrimonio, makeup artist Abruzzo, trucco cerimonia, trucco personalizzato, make-up elegante"
+    />
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+
     <title>Elisley Makeup</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <img
+          src="./images/logo.png"
+          class="header__logo"
+          alt="Elisley Makeup"
+        />
+        <div class="header__content">
+          <h1 class="header__title">STIAMO ARRIVANDO</h1>
+          <p class="header__paragraph">
+            VUOI ESSERE LA PRIMA A SAPERE? AVISSAMI AL LANCIO!
+          </p>
+          <form id="form" class="header__form" action="https://formsubmit.co/jonas.bazzi@elisleymakeup.it">
+            <input
+              name="email"
+              type="email"
+              placeholder="email"
+              class="header__email"
+              required
+            />
+
+            <button class="header__save" type="submit" id="btn">AVVISAMI</button>
+          </form>
+          <p id="mensagem" style="display: none; color:#cfa073;">Inviato con successo!</p>
+
+          <p class="header__follow">SEGUIMI SU INSTAGRAM</p>
+          <div class="header__instagram">
+            <i class="fa-brands fa-instagram"></i>
+
+            <a href="https://www.instagram.com/elisley_vieiramakeup/" target="_blank" class="header__link">@elisley_vieiramakeup</a>
+          </div>
+        </div>
+
+        <div class="header__footer">
+          <div class="header__logo-content">
+            <h2 class="header__logo-text" translate="no">Elisley Viera</h2>
+            <p translate="no" class="header__logo-makeup">MAKEUP</p>
+          </div>
+          <div class="header__copy-content">
+            <p translate="no" class="header__copy">
+              Copyright © 2025 Elisley Vieira Makeup.
+            </p>
+            <p class="header__copy">
+              Website designed by
+              <a href="#" class="header__copy-link">Mayza Ynara</a>
+            </p>
+          </div>
+        </div>
+      </header>
+      <main class="content"></main>
+      <footer class="footer"></footer>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
 </html>
