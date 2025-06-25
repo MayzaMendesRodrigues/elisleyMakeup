@@ -48,7 +48,6 @@
   font-family: "Montserrat";
   font-size: 14px;
   margin: 0;
-  max-width: 319px;
 }
 
 
@@ -176,6 +175,10 @@ margin: 0;
     width: 318px;
 
   }
+
+  .header__paragraph {
+  max-width: 319px;
+
 }
 
 
