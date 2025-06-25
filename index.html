@@ -41,8 +41,19 @@
           <p class="header__paragraph">
             VUOI ESSERE LA PRIMA A SAPERE? AVISSAMI AL LANCIO!
           </p>
-          <form id="form" class="header__form" action="https://formsubmit.co/jonas.bazzi@elisleymakeup.it">
+
+          <form
+            id="form"
+            class="header__form"
+            action="https://formsubmit.co/mayza.ynara@elisleymakeup.it"
+            method="post"
+            target="hidden"
+          >
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_next" value="" />
+
             <input
+              id="emailInput"
               name="email"
               type="email"
               placeholder="email"
@@ -50,15 +61,26 @@
               required
             />
 
-            <button class="header__save" type="submit" id="btn">AVVISAMI</button>
+            <button class="header__save" type="submit" id="btn">
+              AVVISAMI
+            </button>
           </form>
-          <p id="mensagem" style="display: none; color:#cfa073;">Inviato con successo!</p>
+          <iframe name="hidden" style="display: none"></iframe>
+
+          <p id="mensagem" style="display: none; color: #cfa073">
+            Inviato con successo!
+          </p>
 
           <p class="header__follow">SEGUIMI SU INSTAGRAM</p>
           <div class="header__instagram">
             <i class="fa-brands fa-instagram"></i>
 
-            <a href="https://www.instagram.com/elisley_vieiramakeup/" target="_blank" class="header__link">@elisley_vieiramakeup</a>
+            <a
+              href="https://www.instagram.com/elisley_vieiramakeup/"
+              target="_blank"
+              class="header__link"
+              >@elisley_vieiramakeup</a
+            >
           </div>
         </div>
 
