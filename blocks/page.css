@@ -1,4 +1,10 @@
 .page{
   font-family: 'Italiana','Montserrat', Arial, Helvetica, sans-serif;
   overflow-x: hidden;
+  position: relative;
+  background-image: url(../images/header.webp);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  z-index: 0;
 }
