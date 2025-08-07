@@ -1,0 +1,155 @@
+
+.intro {
+  max-height: 100vh;
+  height: auto;
+  width: 100vw;
+  margin:  0;
+  padding: 0 0 100px 0;
+  background-image: url(../images/plano2.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.intro__form{
+  background-color: #442819;
+
+}
+
+
+.intro__content {
+  margin: 0 auto;
+  padding: 0 15px ;
+}
+
+.intro__booking {
+  margin: 0;
+  text-transform: uppercase;
+  font-family: var(--font-montserrat);
+  color:var(--color-white);
+  font-size: 14px;
+  font-weight: var(--font-weight-light);
+
+  white-space: nowrap;
+}
+
+.intro__booking-content {
+  border-top: 1px solid var(--color-white);
+  border-bottom: 1px solid var(--color-white);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  gap: 25px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.intro__title {
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 200;
+  color: #fff;
+  max-width: 273px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.intro__atencion {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 200;
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px 0 50px 0;
+  max-width: 800px;
+}
+
+.intro__paragraph {
+  max-width: 780px;
+  font-family: "Montserrat";
+  font-weight: 300;
+  color: #fff;
+  margin: 50px auto;
+  padding: 0 53px;
+  line-height: 20px;
+}
+
+@media(max-width: 1300px) {
+  .intro {
+    min-height: 35vh;
+  }
+  .intro__booking {
+    font-size: 12px;
+  }
+  .intro__title {
+    font-size: 14px;
+  }
+  .intro__atencion {
+    padding: 30px 20px 0 20px;
+  }
+  .intro__paragraph {
+    font-size: 16px;
+    padding: 0 20px;
+    line-height: 22px;
+  }
+}
+@media(max-width: 1024px) {
+
+  .intro__booking {
+    font-size: 12px;
+  }
+  .intro__title {
+    font-size: 12px;
+  }
+  .intro__atencion {
+    font-size: 40px;
+    padding: 30px 20px 30px 20px;
+  }
+  .intro__paragraph {
+    font-size: 14px;
+    padding: 0 20px;
+    line-height: 18px;
+  }
+}
+
+@media(max-width: 768px) {
+  .intro {
+    min-height: 42vh;
+  }
+  .intro__booking {
+    font-size: 12px;
+  }
+  .intro__title {
+    font-size: 12px;
+  }
+  .intro__atencion {
+    font-size: 30px;
+  }
+  .intro__paragraph {
+    font-size: 14px;
+    padding: 0 20px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 544px) {
+  .intro {
+    min-height: 40vh;
+  }
+  .intro__booking {
+    font-size: 12px;
+  }
+  .intro__title {
+    font-size: 12px;
+  }
+  .intro__atencion {
+    font-size: 25px;
+  }
+  .intro__paragraph {
+    font-size: 14px;
+    padding: 0 20px;
+    line-height: 18px;
+  }
+
+}
