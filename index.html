@@ -9,101 +9,404 @@
     />
     <meta
       name="keywords"
-      content="trucco sposa Abruzzo, makeup artist sposa, trucco professionale, trucco naturale, bellezza sposa, trucco matrimonio, makeup artist Abruzzo, trucco cerimonia, trucco personalizzato, make-up elegante"
+      content="trucco sposa Abruzzo, make-up artist sposa, trucco professionale, trucco naturale, bellezza sposa, trucco matrimonio, make-up artist Abruzzo, trucco cerimonia, trucco personalizzato, make-up elegante"
     />
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="index.css" />
 
-    <title>Elisley Makeup</title>
+    <title>Elisley Make-up - Trucco Sposa e Eventi Speciali ad Abruzzo</title>
   </head>
+
   <body>
     <div class="page">
       <header class="header">
-        <img
-          src="./images/logo.png"
-          class="header__logo"
-          alt="Elisley Makeup"
-        />
+        <nav class="nav" id="nav">
+          <img
+            src="./images/logo.png"
+            class="nav__logo"
+            alt="Elisley Makeup Logo"
+          />
 
+          <span class="material-symbols-outlined nav__menu-icon" id="menu-icon">
+            menu
+          </span>
 
+          <div class="nav__menu">
+            <ul class="nav__items-mobile">
+              <li><a href="./index.html">Elisley Vieira</a></li>
+              <li><a href="./service.html">Servici</a></li>
+              <li><a href="./form.html">Make-up Sposa</a></li>
+              <li><a href="./contact.html">contatti</a></li>
+
+              <div class="footer__social">
+                <div class="footer__social-icon">
+                  <a
+                    href="https://www.instagram.com/elisley_vieiramakeup/"
+                    class="footer__social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+             
+                  <a
+                    href="https://www.linkedin.com/in/elisley-vieira-0294282b5/"
+                    class="footer__social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="fa-brands fa-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+
+            </ul>
+          </div>
+
+          <ul class="nav__items">
+            <li><a href="./index.html">Elisley Vieira</a></li>
+            <li><a href="./service.html">Servici</a></li>
+            <li><a href="./form.html">Make-up Sposa</a></li>
+          </ul>
+          <a class="nav__contact" href="./contact.html">contatti</a>
+        </nav>
       </header>
+
+
       <main class="content">
-          <div class="header__content">
-          <h1 class="header__title">STIAMO ARRIVANDO</h1>
-          <p class="header__paragraph">
-            VUOI ESSERE IL PRIMO A SAPERLO? ISCRIVITI E TI AVVISEREMO AL LANCIO!
-          </p>
+        <section class="intro">
+          <div class="intro__booking-content">
+            <span class="intro__booking">
+              Prenota ora la tua consulenza • Prenota ora la tua consulenza •
+              Prenota ora la tua consulenza • Prenota ora la tua consulenza •
+              Prenota ora la tua consulenza • Prenota ora la tua consulenza •
+              Prenota ora la tua consulenza • Prenota ora la tua consulenza •
+              Prenota ora la tua consulenza • Prenota ora la tua consulenza •
+              Prenota ora la tua consulenza • Prenota ora la tua consulenza •
+              Prenota ora la tua consulenza • Prenota ora la tua consulenza •
+              Prenota ora la tua consulenza • Prenota ora la tua consulenza •
+            </span>
+          </div>
+          <div class="intro__content">
+            <h1 class="intro__title">
+              TRUCCO PER SPOSE, EVENTI E MOMENTI SPECIALI
+            </h1>
 
-          <form
-            id="form"
-            class="header__form"
-            action="https://formsubmit.co/mayza.ynara@elisleymakeup.it"
-            method="post"
-            target="hidden"
-          >
-            <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name="_next" value="" />
+            <p class="intro__atencion">Bellezza nella diversità</p>
 
-            <input
-              id="emailInput"
-              name="email"
-              type="email"
-              placeholder="email"
-              class="header__email"
-              required
-            />
+            <p class="intro__paragraph">
+              La mia più grande gioia è vederti riconoscere e amare ancora di
+              più te stessa guardandoti allo specchio. Attraverso il trucco,
+              esalto la tua essenza con delicatezza, cura e intenzione.
+              <br /><br />
+              Specializzata make-up per spose, eventi come lauree, diciottesimi
+              e servizi fotografici, mi immergo con pennelli e colori nel tuo
+              giorno speciale per raccontare ciò che vivi. Attraverso il trucco,
+              voglio farti sentire davvero te stessa, esaltando la tua
+              delicatezza, forza e bellezza. Ti va di conoscerci?
+            </p>
+          </div>
+        </section>
 
-            <button class="header__save" type="submit" id="btn">
-              AVVISAMI
-            </button>
-          </form>
-          <iframe name="hidden" style="display: none"></iframe>
+        <section class="about" id="about">
+          <div class="about__content">
+            <div class="about__image">
+              <img
+                src="./images/elisleyVieira.jpg"
+                alt="La truccatrice Elisley è seduta, sorridente, esibendo il suo trucco professionale e le sue doti di presentazione. Ha la pelle scura, i capelli neri ed è vestita di bianco e con i tacchi alti."
+                class="about__img"
+              />
+              <div class="about__details"></div>
+            </div>
+            <div class="about__text">
+              <h2 class="about__elisley">Ciao, sono Elisley</h2>
+              <p class="about__paragraph">
+                Ho cominciato a truccarmi quando avevo solo 13 anni… ricordo
+                ancora quanto quel gesto semplice mi abbia aiutata a sentirmi
+                un’adolescente “normale”. In un mondo in cui mi sentivo troppo
+                esile per essere e sentirmi bella, il trucco mi ha insegnato che
+                possiamo essere diversi e “uguali” allo stesso tempo. Con il
+                tempo ho imparato ad ascoltare la mia versione migliore, dando
+                fiducia a me stessa. Così, all’età di 15 anni, ho truccato la
+                mia prima cliente. Ricordo ancora le sue parole: “Voglio
+                sentirmi più bella riconoscendomi.” È lì che ho capito che non
+                sono solo una truccatrice per occasioni speciali, ma qualcuno
+                che vuole farti sentire speciale e bella nella tua unicità di
+                ogni giorno.
+              </p>
+              <img
+                src="./images/assEV.png"
+                alt="Assinatura de Elisley Vieira"
+              />
+            </div>
+          </div>
+        </section>
 
-          <p id="mensagem" style="display: none; color: #cfa073">
-            Inviato con successo!
-          </p>
+        <section class="feedback feedback-space">
+          <div class="feeback__content">
+            <h2 class="feedback__title">
+              “ Elisley è una professionista di altissimo livello.”
+            </h2>
+            <p class="feedback__paragraph">
+              Elisley è una professionista di altissimo livello. Mi ha seguito
+              per il make up del mio matrimonio ed è stato tutto perfetto: ha un
+              approccio gentile e comprensivo che in quelle giornate è
+              fondamentale.
+              <br /><br />
+              Come tutte le spose, sono stata sottoposta a stress e grandi
+              emozioni e avere al mio fianco una persona come lei è stato di
+              grande aiuto. Sa ascoltare e comprende al volo i desideri,
+              arrivando addirittura a prevederli. <br />Il mio matrimonio è
+              stato diviso su due giornate: si trattava di due stili diversi che
+              necessitavano make up ad hoc e sono rimasta davvero colpita e
+              stregata dalla sua bravura. Non sono abituata a truccarmi spesso,
+              pertanto ha seguito il mio essere e compreso esattamente come mi
+              sentissi e soprattutto come mi sarei voluta sentire.
+              <br /><br />Consiglio vivamente e di cuore Elisley per
+              accompagnarti in questo meraviglioso viaggio. Grazie per averlo
+              reso perfetto.
+            </p>
+          </div>
+        </section>
 
-          <p class="header__follow">SEGUIMI SU INSTAGRAM</p>
-          <div class="header__instagram">
-            <i class="fa-brands fa-instagram"></i>
+        <section class="servici" id="servici">
+          <div class="service__content">
+            <h2 class="service__title">I Miei Servicci</h2>
 
-            <a
-              href="https://www.instagram.com/elisley_vieiramakeup/"
-              target="_blank"
-              class="header__link"
-              >@elisley_vieiramakeup</a
-            >
+            <div class="accordion">
+              <div class="accordion-header">
+                MAKE-UP SPOSA
+                <span class="arrow">▼</span>
+              </div>
+              <div class="accordion-content" id="accordion-bridal">
+                Il servizio include consulenza personalizzata, prova trucco e
+                realizzazione del make-up il giorno del matrimonio, per un look
+                impeccabile e duraturo.
+              </div>
+            </div>
+
+            <div class="accordion">
+              <div class="accordion-header">
+                MAKE-UP PER LAUREA
+                <span class="arrow">▼</span>
+              </div>
+              <div class="accordion-content" id="accordion-graduation">
+                Valorizza il tuo viso per le foto e la cerimonia di laurea, con
+                un trucco elegante e adatto all'occasione.
+              </div>
+            </div>
+
+            <div class="accordion">
+              <div class="accordion-header">
+                SELF-MAKEUP
+                <span class="arrow">▼</span>
+              </div>
+              <div class="accordion-content" id="accordion-self-makeup">
+                Lezione personalizzata per imparare le tecniche base del
+                make-up, scoprire i prodotti più adatti a te e creare il tuo
+                look perfetto.
+              </div>
+            </div>
+
+            <div class="accordion">
+              <div class="accordion-header">
+                MAKE-UP EDITORIALE
+                <span class="arrow">▼</span>
+              </div>
+              <div class="accordion-content" id="accordion-editorial">
+                Trucco creativo e d'impatto per servizi fotografici, sfilate di
+                moda o progetti editoriali.
+              </div>
+            </div>
+
+            <div class="accordion">
+              <div class="accordion-header">
+                MAKE-UP DICIOTTESIMO
+                <span class="arrow">▼</span>
+              </div>
+              <div class="accordion-content" id="accordion-debutante">
+                Un make-up fresco e raffinato per celebrare un momento speciale
+                come il tuo debutto in società.
+              </div>
+            </div>
+
+            <div class="accordion">
+              <div class="accordion-header">
+                MAKE-UP PER SERVICCI FOTOGRAFICI
+                <span class="arrow">▼</span>
+              </div>
+              <div class="accordion-content">
+                Realizzazione di make-up specifici per shooting fotografici,
+                garantendo un aspetto impeccabile davanti all'obiettivo.
+              </div>
+              <a href="./service.html">
+                <button class="service__button">SCOPRI DI PIÙ</button>
+              </a>
+            </div>
+          </div>
+          <div class="service__img"></div>
+        </section>
+
+        <section class="photograph-bride">
+          <div class="photograph-bride__container">
+            <img src="./images/photograph-tre.jpg" alt="" class="photo" />
+            <img src="./images/photograph-tw.jpg" alt="" class="photo" />
+            <img src="./images/photograph-four.jpg" alt="" class="photo" />
+            <img src="./images/photograph-onr.jpg" alt="" class="photo" />
+            <img src="./images/selfmakeup.jpg" alt="" class="photo" />
+            <img src="./images/debutante.jpg" alt="" class="photo" />
+          </div>
+        </section>
+
+        <section class="feedback">
+          <div class="feedback__content">
+            <p class="feedback__paragraph">
+              Eli è arrivata il giorno del mio matrimonio e ha portato subito
+              una calma che ha contagiato tutti. È estremamente professionale e
+              la sua presenza trasmette fiducia e tranquillità — ed è proprio
+              questo che fa la differenza in una giornata così piena di
+              emozioni. <br /><br />
+              Non sono mai stata una grande amante del trucco, e avevo paura di
+              non riconoscermi allo specchio... Ma lei mi ha fatta sentire così
+              a mio agio! Il make-up ha valorizzato chi sono, senza eccessi —
+              era come vedermi nella mia versione migliore. <br /><br />
+              Tutto è stato così naturale che mi sono sentita davvero bella. E
+              la cosa più bella: ho potuto godermi ogni momento con leggerezza.
+            </p>
+            <h2 class="feedback__title">“Mi sono sentita davvero me stessa”</h2>
+          </div>
+        </section>
+
+        <section class="bride" id="bride-makeup">
+          <div class="bride__img"></div>
+
+          <div class="bride__content">
+            <h2 class="bride__title">Sei una sposa? Questo spazio è per te.</h2>
+
+            <p class="bride__paragraph">
+              Compila il modulo per ricevere il tuo preventivo personalizzato e
+              rendere il tuo giorno speciale ancora più magico.
+            </p>
+            <a href="./form.html">
+              <button class="bride__button" type="submit">
+                Richiedi Preventivo
+              </button>
+            </a>
+          </div>
+        </section>
+
+        <section class="connect" id="connect">
+          <div class="connect__content">
+            <h2 class="connect__title">connettiti con me</h2>
+            <a class="connect__paragraph" href="#">@ELISLEY_VIEIRAMAKEUP</a>
+          </div>
+        </section>
+
+        <section class="makeup">
+          <div>
+            <img src="./images/home__makeup.jpg" alt="" class="makeup__img" />
+          </div>
+          <div class="makeup__self">
+            <h3 class="connect__title">Makeup</h3>
+            <p class="bride__paragraph">
+              Prima ancora di iniziare, ti ascolto per capire il tuo stile, la
+              tua personalità e ciò che desideri esprimere. Il trucco è un modo
+              per rivelare la tua versione migliore, aumentare la fiducia in te
+              stessa e valorizzare la tua bellezza unica. Che sia per
+              un’occasione speciale o semplicemente per sentirti più bella ogni
+              giorno, il mio obiettivo è farti sentire radiosa e naturale.
+            </p>
+            <hr />
+
+            <h3 class="connect__title">Self-makeup e Consulenza</h3>
+            <p class="bride__paragraph">
+              Offro anche lezioni personalizzate di autotrucco, per aiutarti a
+              truccarti con sicurezza, praticità e autenticità. Se hai dubbi
+              sulla cura della pelle o non sai quali prodotti siano i più adatti
+              a te, propongo una consulenza completa per guidarti con attenzione
+              e competenza.
+            </p>
+            <a href="./service.html">
+              <button class="bride__button">SAPERNE DI PIÙ</button>
+            </a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer" id="footer">
+        <div class="footer__content">
+          <div class="footer__social-content">
+            <div class="footer__social">
+              <h4 class="footer__social-heading">Scopri di più</h4>
+              <a href="./form.html" class="footer__link" target="_blank"
+                >Richiede preventino</a
+              >
+
+              <a href="./service.html" class="footer__link" target="_blank"
+                >Servici</a
+              >
+
+              <a href="./contact.html" class="footer__link" target="_blank"
+                >Contatti</a
+              >
+            </div>
+
+            <div class="footer__social">
+              <h4 class="footer__social-heading dove">Dove sei</h4>
+              <p class="footer__link">Abruzzo - Italia</p>
+            </div>
+
+            <div class="footer__social">
+              <h4 class="footer__social-heading">Seguimi sui social</h4>
+              <div class="footer__social-icon">
+                <a
+                  href="https://www.instagram.com/elisley_vieiramakeup/"
+                  class="footer__social-link"
+                  target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+
+                <a
+                  href="https://www.linkedin.com/in/elisley-vieira-0294282b5/"
+                  class="footer__social-link"
+                  target="_blank"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </div>
+            </div>
           </div>
         </div>
-      </main>
-      <footer class="footer">
 
-        <div class="header__footer">
-          <div class="header__logo-content">
-            <h2 class="header__logo-text" translate="no">Elisley Viera</h2>
-            <p translate="no" class="header__logo-makeup">MAKEUP</p>
-          </div>
-          <div class="header__copy-content">
-            <p translate="no" class="header__copy">
-              Copyright © 2025 Elisley Vieira Makeup.
-            </p>
-            <p class="header__copy">
-              Website designed by
-              <a href="https://www.linkedin.com/in/mayza-ynara-mendes-rodrigues/" class="header__copy-link" target="_blank">Mayza Ynara</a>
-            </p>
-          </div>
+        <div class="footer__logo-content">
+          <h2 class="footer__logo-text" translate="no">Elisley Viera</h2>
+          <p translate="no" class="footer__logo-makeup">MAKEUP</p>
+        </div>
+
+        <div class="footer__copy-content">
+          <p translate="no" class="footer__copy">
+            Copyright © 2025 Elisley Vieira Makeup.
+          </p>
+          <p class="footer__copy">
+            Website designed by
+            <a
+              href="https://www.linkedin.com/in/mayza-ynara-mendes-rodrigues/"
+              class="footer__copy-link"
+              target="_blank"
+              >Mayza Ynara</a
+            >
+          </p>
         </div>
       </footer>
     </div>
