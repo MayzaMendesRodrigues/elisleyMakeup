@@ -31,6 +31,7 @@ gap: 165px;
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
+
 }
 
 .about__text{
@@ -69,5 +70,7 @@ gap: 165px;
 @media (max-width: 544px){
   .about__paragraph{
     font-size: 14px;
+    padding: 20px;
+    line-height: 18px;
   }
 }
