@@ -1,0 +1,30 @@
+.photograph-bride{
+background-color: #4f3624;
+position: relative;
+}
+.photograph-bride__container{
+  display: flex;
+  height: 80vh;
+  width: auto;
+  justify-content: center;
+  white-space: nowrap;
+  animation: photo 100s linear infinite ;
+  min-width: fit-content; /* Isso evita o corte do conteúdo */
+
+
+
+}
+@keyframes photo {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.photo {
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}

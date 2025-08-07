@@ -1,18 +1,47 @@
+/*plano de fundo do index*/
+.header{
+  position: relative;
+  background-image: url(../images/header-index.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  z-index: 0;
+}
 
-.header::before {
+.header::before,
+.header__service::before,
+.header__form::before {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: rgba(79, 54, 36, 0.94);
+  background-color: rgba(79, 54, 36, 0.40);
   z-index: 1;
 }
 
-.header__logo {
-  width: 75px;
-  height: auto;
-  position: absolute;
-  z-index: 2;
-  padding: 33px;
+
+ .header__service{
+  position: relative;
+  background-image: url(../images/home__sposa.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  z-index: 0;
+
+}
+
+
+
+ .header__form{
+  position: relative;
+  background-image: url(../images/form-page.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  z-index: 0;
+  margin: 0;
+
 }
 
 .header__content {
@@ -43,10 +72,7 @@
 }
 
 
-.header__form {
-  margin-top: 16px;
-  font-family: "Montserrat";
-}
+
 
 .header__email {
   border: 0;
@@ -92,74 +118,18 @@
 }
 
 
-
-
-.header__footer{
-  position: absolute;
-  z-index: 5;
-  left: 0;
-  right: 0;
-  bottom: 0;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.header__contact{
+position: relative;
+  background-image: url(../images/photograph-tw.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  z-index: 0;
 
 }
 
 
-.header__logo-text{
-  font-weight: 100;
-  font-size: 36px;
-  color: #fff;
-  margin: 0;
-}
-
-.header__copy{
-  font-family: "Montserrat";
-  margin: 0;
-  font-size: 12px;
-  color: #A37D5A;
-}
-
-.header__logo-content{
-margin: 0;
-display: flex;
-flex-direction: column;
-align-items: flex-end;
-margin: 0;
-}
-
-.header__logo-makeup{
-  margin-top: -8px;
-  color: #fff;
-  font-family: 'Montserrat';
-  font-weight: 100;
-  letter-spacing: 2px;
-  font-size: 8px;
-}
-
-.header__copy-content{
-  margin-bottom: 25px;
-}
-
-.header__copy-link{
-  color:#A37D5A;
-  cursor: pointer;
-}
-
-.header__copy-link:hover{
-  color: #fff;
-}
-
-.header__follow,
-.header__link{
-  font-family: 'Montserrat';
-  font-size: 14px ;
-  color: #fff;
-  text-decoration: none;
-}
 
 @media (max-width: 544px){
   .header__save{
@@ -170,6 +140,11 @@ margin: 0;
 
   .header__paragraph {
   max-width: 319px;
+  }
+
+  .header__service{
+    background-image: url(../images/debutante.jpg);
+    background-position: top;
   }
 }
 

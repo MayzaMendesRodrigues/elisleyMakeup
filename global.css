@@ -1,0 +1,20 @@
+:root{
+  --primary-color: #4f3624;
+  /* --secondary-color: #f2e9e4;
+  --accent-color: #d9b08c;
+  --text-color: #333;
+  --background-color: #fff; */
+  --font-family: 'Montserrat', sans-serif;
+  --font-familt-secondary: 'Italiana', serif;
+
+  --color-white: #fff;
+
+  --font-weight-light: 200;
+  --font-weight-regular: 300;
+
+  --spacing-xs: 0.625rem; /* 10px */
+  --spacing-sm: 0.9375rem; /* 15px */
+  --spacing-md: 1.25rem;  /* 20px */
+  --spacing-lg: 3.125rem;  /* 50px */
+  --spacing-xl: 5.3125rem; /* 85px */
+}

@@ -1,0 +1,88 @@
+.service{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.service__trucco-content {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+  flex-direction: column;
+  max-width: 450px;
+
+
+}
+.service__trucco-brown {
+  background-color: #4f3624;
+}
+
+.service__trucco-white {
+  background-color: #d6d6d673;
+  color: #4f3624;
+}
+
+.service__trucco-title {
+  font-family: "Italiana";
+  font-size: 60px;
+  font-weight: 200;
+  color: #fff;
+  width: 320px;
+}
+
+.service__trucco-img {
+  width: 500px;
+  height: auto;
+}
+
+
+
+.service__trucco-text {
+  font-weight: 300;
+  font-size: 17px;
+  color: #fff;
+ font-family: 'Montserrat';
+}
+
+.title__brown{
+  color: #4f3624;
+}
+ .success-message {
+        display: none;
+        text-align: center;
+        padding: 2rem;
+        background-color: #f8f8f8;
+        margin: 2rem auto;
+        max-width: 1240px;
+        font-family: "Montserrat";
+      }
+
+      .success-message.show {
+        display: block;
+      }
+
+      .success-message-title{
+        font-family: "Italiana";
+        color: #4f3624;
+      }
+
+
+/* @media (max-width: 1200px) {
+  .service__trucco-content {
+    padding: 50px;
+    align-items: center;
+  }
+
+
+
+} */
+
+@media (max-width: 544px){
+  .service__trucco-content{
+    max-width: 320px;
+  }
+
+
+
+
+}

@@ -1,0 +1,73 @@
+.form {
+  background-image: url(../images/veu.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.form__container {
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  max-width: 900px;
+
+
+}
+
+.form__label {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 17px;
+
+  line-height: 20px;
+  color: #4f3624;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.form__input {
+  min-width: 250px;
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2); /* linha inferior */
+
+  background-color: #fff;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form__textarea {
+  height: 150px;
+  padding-top: 25px;
+}
+
+.form__checkbox{
+  font-family: "Montserrat";
+  margin-left: 15px;
+  padding-left: 5px;
+
+}
+
+
+
+@media (max-width: 1024px){
+  .form{
+    padding: 50px;
+  }
+}
+

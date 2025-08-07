@@ -1,0 +1,76 @@
+.bride{
+  display: flex;
+justify-content: center;
+  background-image: url(../images/plano2.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0 250px 0;
+  align-items: center;
+
+
+}
+.bride__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 450px;
+
+}
+
+.bride__title{
+  font-family: 'Italiana';
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+  margin: 0;
+}
+
+.bride__paragraph{
+color: #fff;
+font-family: 'Montserrat';
+font-size: 17px;
+line-height: 20px;
+text-align: center;
+
+
+}
+
+.bride__img{
+ width: 430px;
+ height: 430px;
+ background-image: url(../images/form-page.jpg);
+ background-position: center;
+ background-size: cover;
+}
+
+.bride__button{
+  width: auto;
+  height: 42px ;
+  color: #fff;
+  background-color: #A76F4E;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 33px;
+  margin-bottom: 35px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "Montserrat";
+}
+@media (max-width: 768px) {
+  .bride{
+    flex-direction: column;
+    padding: 0 50px 50px;
+
+  }
+
+  .bride__title{
+    font-size: 40px;
+    margin-top: 50px;
+  }
+
+  .bride__paragraph{
+    font-size: 14px;
+  }
+}

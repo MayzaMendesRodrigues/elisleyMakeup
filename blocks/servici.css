@@ -1,0 +1,119 @@
+.servici {
+  background-image: url(../images/veu.png);
+  background-size: cover;
+  display: flex;
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.service__signature{
+  rotate: -90deg;
+  margin: -220px;
+}
+
+.service__content {
+  width: 100%;
+  max-width: 600px;
+}
+.service__img {
+  width: 598px;
+  min-height: 468px;
+  background-image: url(../images/home__sposa.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.service__title {
+  font-size: 60px;
+  font-weight: 200;
+  color: #4f3624;
+  padding-top: 0;
+}
+
+.service__button {
+  width: auto;
+  height: 42px;
+  margin-top: 33px;
+  margin-bottom: 35px;
+  border: none;
+  background-color: #4f3624;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.accordion-header {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  cursor: pointer;
+  font-family: "Montserrat";
+  color: #4f3624;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 2px #4f3624;
+}
+.accordion{
+  animation:alternate flipdown 0.5s ease-in-out;
+}
+.accordion-content {
+  display: none;
+  font-family: "Montserrat";
+  margin-top: 25px;
+  text-align: start;
+}
+
+
+
+@keyframes flipdown {
+	0% {
+		opacity: 0;
+		transform-origin: top center;
+		transform: rotateX(-90deg);
+	}
+
+	5% { opacity: 1; }
+
+	80% { transform: rotateX(8deg); }
+
+	83% { transform: rotateX(6deg); }
+
+	92% { transform: rotateX(-3deg); }
+
+	100% {
+		transform-origin: top center;
+		transform: rotateX(0deg);
+	}
+}
+
+
+
+@media (max-width: 1024px) {
+  .servici {
+    flex-direction: column;
+    padding: 50px;
+    gap: 25px;
+  }
+  .service__img{
+    width: 450px;
+    height: 450px;
+
+  }
+  .service__content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .service__button{
+    width: 260px;
+  }
+
+
+
+}
+

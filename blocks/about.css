@@ -1,0 +1,73 @@
+.about{
+padding: 100px;
+
+}
+
+.about__content{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 165px;
+
+
+}
+
+.about__elisley{
+  font-size: 60px;
+  color:#4F3624 ;
+  font-weight: 300;
+}
+
+.about__img{
+  max-width: 400px;
+  height: auto;
+  box-shadow: 45px -45px #A37D5A;
+
+}
+
+
+.about__paragraph{
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.about__text{
+  max-width: 500px;
+  font-weight: 200;
+
+}
+
+@media (max-width: 1024px) {
+  .about{
+    padding: 50px 50px 0 50px ;
+  }
+  .about__content{
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column-reverse;
+  }
+  .about__elisley{
+    font-size: 60px;
+    width: 350px;
+    text-align: center;
+    font-weight:300 ;
+
+
+  }
+  .about__img{
+    box-shadow: 60px -60px #A37D5A;
+
+  }
+  .about__text{
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 544px){
+  .about__paragraph{
+    font-size: 14px;
+  }
+}
