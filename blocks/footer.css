@@ -110,7 +110,9 @@ margin: 0;
   padding-bottom: 10px;
   text-align: center;
 }
-
+.dove{
+  width: 250px;
+}
 .fa-brands{
   color: #fff;
   background-color: #A37D5A;
